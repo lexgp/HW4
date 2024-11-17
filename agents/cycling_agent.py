@@ -1,0 +1,3 @@
+
+def cycling_agent(observation, configuration):
+    return observation.step % configuration.signs  # Циклический выбор: 0, 1, 2, 0, 1, 2...
